@@ -1,77 +1,863 @@
-/*
-* multi-line comment
-*/
-p{ line-height: 1em; }
-h1, h2, h3, h4{
-    color: orange;
-	font-weight: normal;
-	line-height: 1.1em;
-	margin: 0 0 .5em 0;
-}
-h1{ font-size: 1.7em; }
-h2{ font-size: 1.5em; }
-a{
-	color: black;
-	text-decoration: none;
-}
-	a:hover,
-	a:active{ text-decoration: underline; }
 
-/* you can structure your code's white space so that it is as readable for when you come back in the future or for other people to read and edit quickly */
 
-body{
-    font-family: arial; font-size: 80%; line-height: 1.2em; width: 100%; margin: 0; background: #eee;
-}
-/* you can put your code all in one line like above */
-#page{ margin: 20px; }
 
-/* or on different lines like below */
-#logo{
-	width: 35%;
-	margin-top: 5px;
-	font-family: georgia;
-	display: inline-block;
+html
+{
+    font-size: 1em;
+    line-height: 1.4;
+    font-family: 'Hind', sans-serif;
 }
-/* but try and be as concise as possible */
-#nav{
-	width: 60%;
-	display: inline-block;
-	text-align: right;
-	float: right;
+::-moz-selection {
+box-shadow: none;
+  background-color:#b3d4fc;
 }
-	#nav ul{}
-		#nav ul li{
-			display: inline-block;
-			height: 62px;
-		}
-			#nav ul li a{
-				padding: 20px;
-				background: orange;
-				color: white;
-			}
-			#nav ul li a:hover{
-				background-color: #ffb424;
-				box-shadow: 0px 1px 1px #666;
-			}
-			#nav ul li a:active{ background-color: #ff8f00; }
 
-#content{
-	margin: 30px 0;
-	background: white;
-	padding: 20px;
-	clear: both;
-}
-#footer{
-	border-bottom: 1px #ccc solid;
-	margin-bottom: 10px;
-}
-	#footer p{
-		text-align: right;
-		text-transform: uppercase;
-		font-size: 80%;
-		color: grey;
-	}
+                                        /* =====================================================
+                                        *                  End Base Style
+                                        *   =================================================== */
 
-/* multiple styles seperated by a , */
-#content,
-ul li a{ box-shadow: 0px 1px 1px #999; }
+
+                                        /* =====================================================
+                                        *                  start HEADER STYLE
+                                        *   =================================================== */
+
+            header
+            {
+                
+                background:url('../img/13.jpg') no-repeat;
+               /* -moz-background-size: cover;
+                -webkit-background-size: cover;
+                -o-background-size:cover; */
+              
+                
+                background-size: cover;
+                height: 700px;
+                margin-bottom: 20px;    
+                
+            }
+
+            header div.overly
+            {
+                background-color: rgba(0,0,0,.5);
+                width: 100%;
+                height: 100%;
+              
+              
+            }
+            
+            .container
+            {
+                width: 1280px;
+                margin: 0 auto;
+            }
+            .logo
+            {
+                float: left;
+                
+            }
+            .ul1
+            {
+                float: right;
+                list-style: none;
+                
+            }
+            .clear
+            {
+                clear: both;
+            
+            }
+            .spcl
+            {
+                display: inline-block;
+                width: 30px;
+                height: 30px;
+                background-color:#03a9f4;
+                text-align: center;
+                color:#fff;
+                line-height: 30px;
+                border-radius: 2px;
+                font-size: 1em;
+               
+
+                
+            }
+            .hh{
+                display: inline-block;
+                                color: #fff;
+                font-size: 1em;
+                font-weight: normal;
+                padding: 10px;
+                
+                
+            }
+            .aa{
+                font-weight: bold;
+            }
+            
+            .nn{
+                padding:40px 0 0 0 ;
+            }
+               li
+              {
+                float: left;
+                text-align: center;
+              }
+            li     a
+              {
+                display: inline-block;
+                padding: 7px 15px;
+                color: #fff;
+                text-decoration: none;
+                font-weight: 500;
+                
+              }
+               li a:after
+              {
+                content: "";
+                display: block;
+                width: 0px;
+                height: 2px;
+                background-color:#03a9f4;
+                transition: width .4s ease-in-out;
+              }
+               li a:hover:after
+              {
+                width: 100%;
+              }
+              
+              .intro
+              {
+            
+                margin: 100px;
+                color: #fff;
+                text-align: center;
+                
+              }
+              
+              .wel
+              {
+                font-weight: bold;
+                margin-bottom: 30px;
+            
+                
+              }
+              .gro
+              {
+                font-size: 2.5em;
+                text-transform: uppercase;
+                letter-spacing: 3px;
+                margin-bottom: 30px;
+              }
+              
+              .pi{
+              font-size: 1em;
+              line-height:1.5em;
+              margin-bottom: 30px;
+              }
+
+             .butt{
+                background-color:#03a9f4;
+                text-align: center;
+                color: #fff;
+                padding: 12px 30px;
+                border-radius:4px;
+                cursor: pointer;
+                border: none;
+                margin-bottom: 70px;
+             }
+             .indicator
+             {
+                
+                width: 80px;
+                height: 50px;
+                margin: 0 auto;
+                
+             }
+             .indicator a{
+                width: 12px;
+                height: 12px;
+                background-color: #ccc;
+                display: block;
+                float: left;
+                margin-right: 8px;
+                border-radius: 1px;
+                
+             }
+             .indicator a:nth-child(2)
+             {
+                background-color: red;
+             }
+               .indicator a:nth-child(3)
+             {
+                background-color: blue;
+                
+             } .indicator a:nth-child(4)
+             {
+                background-color: green;
+             }
+              
+                                        /* =====================================================
+                                        *                   HEADER STYLE END
+                                        *   =================================================== */
+                                        
+                                        
+                                        /* =====================================================
+                                        *                  start SERVICES STYLE
+                                        *   =================================================== */
+                 .box
+                 {
+                  
+                    display: block;
+                    float: left;
+                    width: 25%;
+                    height: 320px;
+                    text-align: center;
+                    margin-top: 10px;
+                    margin-bottom:100px;
+                
+                 }
+                 #ii
+                 {
+                     display: inline-block;
+                width: 70px;
+                height: 70px;
+                background-color:#03a9f4;
+                text-align: center;
+                color:#fff;
+                line-height: 30px;
+                border-radius: 2px;
+                font-size: 1em;
+                padding-top: 15px;
+                    
+                 }
+                 .box div
+                 {
+                    padding: 30px 0 0 0 ;
+                    width: 280px;
+                    background-color: #fff;
+                    margin: 0 auto;
+                   
+                 }
+                 .box div
+                 {
+                    background-color:#f0fafe;
+                    
+                 }
+                 .box span
+                 {
+                    width:100px;
+                    height: 100px;
+                    background-color:#f0fafe;
+                    color: #fff;
+                    display: inline-block;
+                    font-size:2em;
+                    line-height: 2em;
+                    text-align: center;
+                    border-radius: 2px;
+                    margin-bottom: 20px
+                 }
+                 .box h3
+                 {
+                    color: #1f1f1f;
+                    text-transform: uppercase;
+                    margin-bottom: 20px;
+                    letter-spacing:4px;
+                 }
+                 .box p{
+                    font-size: .9em;
+                    color:#cdcdcd;
+                    margin-bottom: 20px;
+                 }
+                 .box div a
+                 {
+                    text-decoration: none;
+                    color: #03a9f4;
+                    font-weight: bold;
+                    font-size: .8em;
+
+                 }
+                                        /* =====================================================
+                                        *                 end SERVICES STYLE
+                                        *   =================================================== */
+                                        
+                                        /* =====================================================
+                                        *                  start portfolio STYLE
+                                        *   =================================================== */
+                 section.portfolio
+                 {
+              
+                    text-align:center;
+                    padding:60px 0 0 0;
+                    margin-bottom: 60px
+                 }
+                 .portfolio h2
+                 {
+                    font-size: 3em;
+                    font-weight: normal;
+                    text-transform: uppercase;
+                    margin-bottom: 20px;
+                   margin-top: 80px;
+                 }
+                 
+                 .portfolio p{
+                    width:800px;
+                    margin: 0 auto;
+                    color: #cdcdcd;
+                    line-height:1.5em; 
+                 }
+                     .menuphoto ul
+                     {
+                        width: 800px;
+                        margin:  0 auto;
+                        list-style: none;
+                     }
+
+                     
+
+                  .gallery img
+                  {
+                    display: block;
+                    float: left ;
+                    width: 25%;
+                    height:315px;
+                    margin-top: 30px;
+                  }
+                     
+                    section.portfolio div.gallery a
+                    {
+                        text-decoration: none;
+                    color: #03a9f4;
+                    font-weight: bold;
+                    font-size: .8em;
+                    margin-bottom: 180px;
+
+                    }   
+                                        
+                                        
+                                        
+                                        /* =====================================================
+                                        *                  end pero STYLE
+                                        *   =================================================== */
+                                        /* =====================================================
+                                        *                  start blog STYLE
+                                        *   =================================================== */
+                    section.blog
+                    {
+                         background:url('../img/blog.jpg') no-repeat 0px -200px ;
+
+              
+                
+                background-size: cover;
+                        height: 300px;
+                      
+                    }
+                    section.blog div.overly
+                    {
+                                                                    background-color: rgba(0,0,0,.5);
+                width: 100%;
+                height: 100%;
+                    }
+                    
+                    .blog div.overly div.container div 
+                    {
+                        padding: 80px 0 0 0 ;
+                       
+                        
+                    }
+                    .blog div.overly div.container div p
+                    {
+                        font-size: 1.2em;
+                        color:#fff;
+                        text-align: center;
+                           margin: 20px auto;
+                    }
+                     .blog div.overly div.container div button
+                     {
+                        margin-bottom:auto ;
+                     }
+                                        
+                                        /* =====================================================
+                                        *                  end blog STYLE
+                                        *   =================================================== */
+                                        
+                                        
+                                        
+                                        /* =====================================================
+                                        *                  start news STYLE
+                                        *   =================================================== */
+                     section.news
+                     {
+                      
+                        text-align: center;
+                        padding: 60px 0 0 0  ;
+                        margin-bottom: 60px;
+                        padding-left:60px;
+                        height: 500px;
+                        
+                     }
+                     section.news h2
+                     {
+                        font-size:3em;
+                        font-weight: normal;
+                        text-transform: uppercase;
+                        margin-bottom: 20px; 
+
+                     }
+                     section.news > p
+                     {
+                        width: 800px;
+                        margin: 20px auto;
+                        color: #cdcdcd;
+                        line-height:1.2em;
+                    
+                       
+                     }
+                      section.news div.container div
+                      {
+                        width: 30%;
+                        float: left;
+                        height:430px;
+                            margin-right: 37px;
+                      }
+                      section.news div.container div:last-child
+                      {
+                        margin-right: 0px;
+                      }
+                      section.news div.container div img
+                      {
+                        width: 100%;
+                        height: 250px;
+                      }
+                      section.news div.container div span
+                      {
+                        color: #cccccc;
+                        margin-top: 25px;
+                        margin-bottom: 25px;
+                        display: block;
+                      }
+                      section.news div.container p
+                      {
+                        font-size: 1em;
+                        font-weight: bold;
+                        line-height: 1.4em;
+                        margin-top: 15px;
+                        margin-bottom: 50px;
+                        display: block;
+                        
+                      }
+
+                                        
+                                        /* =====================================================
+                                        *                  end news STYLE
+                                        *   =================================================== */
+                                        
+                                        
+                                        /* =====================================================
+                                        *                 start our team STYLE
+                                        *   =================================================== */
+                                        
+                                        
+                                        
+                     section.ourteam
+                     {
+                     
+                        text-align: center;
+                        padding: 50px 0 0 0  ;
+                        margin-bottom: 60px;
+
+                        height: 700px;
+                        
+                     }
+                     section.ourteam h2
+                     {
+                        font-size:3em;
+                        font-weight: normal;
+                        text-transform: uppercase;
+                        margin-bottom: 20px; 
+
+                     }
+                     section.ourteam > p
+                     {
+                        width: 800px;
+                        margin: 20px auto;
+                        color: #cdcdcd;
+                        line-height:1.2em;
+                     }
+                     
+                    section.ourteam div.container div
+                    {
+
+                     width:33%;
+                    float: left;
+                   
+                    }
+                    section.ourteam div.container div:last-child
+                    {
+                        margin-right: 0px;
+                    }
+                    
+                    section.ourteam div.container img
+                    {
+                        width: 80%;
+                        height :400px;
+                        margin-right: 30px;
+                        
+                    }
+                    
+                    section.ourteam div.container h3
+                    {
+                        margin: 25px 0 25px 0 ;
+                        
+                    }
+                    section.ourteam div.container span
+                    {
+                       color: #cdcdcd;
+                       
+                    }      
+                                        
+                                        /* =====================================================
+                                        *                  end our team  STYLE
+                                        *   =================================================== */                                      
+                                        /* =====================================================
+                                        *                 start our skills team  STYLE
+                                        *   =================================================== */
+                    section.ourskills
+                    {
+
+                      background: #f0fafe;
+                      
+                        text-align: center;
+                        padding: 50px 0 0 0  ;
+                        margin-bottom: 20px;
+
+                        height: 500px;                   
+                        
+                    }
+                    
+                    
+                    section.ourskills h2
+                     {
+                        font-size:3em;
+                        font-weight: normal;
+                        text-transform: uppercase;
+                        margin-bottom: 20px; 
+
+                     }
+                     section.ourskills > p
+                     {
+                        width: 800px;
+                        margin: 20px auto;
+                        color: #cdcdcd;
+                        line-height:1.2em;
+                     }       
+                    
+                    section.ourskills div.container div.leftskills
+                    {
+                        float: left;
+                    }
+                    section.ourskills div.container div.rightskills
+                    {
+                        float: right;
+                    }
+                    section.ourskills div.container div.leftskills div.technique,
+                     section.ourskills div.container div.rightskills div.technique
+                    {
+
+                     width: 500px;
+                     margin-bottom: 50px;
+                     margin-top: 10px;
+
+                    }
+                    section.ourskills div.container div.leftskills div.technique h3,
+                    section.ourskills div.container div.rightskills div.technique h3
+                    {
+                        text-transform: uppercase;
+                        text-align: left;
+                        float: left;
+                        display: inline-block;
+                        
+
+                        
+                    }
+                    
+                     section.ourskills div.container div.leftskills div.technique h5,
+                     section.ourskills div.container div.rightkills div.technique h5
+                     {
+                        text-align: right;
+                        float: right;
+                        display: inline-block;
+                        
+                     }
+                    section.ourskills div.container div.leftskills div.technique div:last-child,
+                    section.ourskills div.container div.rightskills div.technique div:last-child
+                    {
+                       
+                        height: 20px;
+                        width: 500px;
+                        background-color: #fff;
+                           border-radius:3px ;
+                        
+                    }
+                     
+                     section.ourskills div.container div.leftskills div.technique div span,
+                     section.ourskills div.container div.rightskills div.technique div span
+                     {
+                     width:  95%;
+                         background-color: #8fdaff;
+                        height: 20px;
+                        border-radius: 3px ;
+                        display: block;
+                     }
+                     
+
+                     
+                     
+                     
+
+                                        
+                                        
+                                        /* =====================================================
+                                        *                  end our team  STYLE
+                                        *   =================================================== */
+                                        
+                                        
+                                        /* =====================================================
+                                        *                start count  STYLE
+                                        *   =================================================== */
+                         section.count
+                         {
+                            
+                         
+                            height: 300px;
+                            padding: 20px;
+                         }
+                                        
+                        section.count div.container div
+                        {
+                            background: #ff9800;
+                            width: 33%;
+                            float:left;
+                             margin-top:40px;    
+                            height: 200px;
+                            
+                        }
+                        
+                        section.count div.container div span:first-child
+                        {
+
+                            width:70px;
+                    height: 70px;
+                    background-color:#fff;
+                    color: #ff9800;
+                    display: inline-block;
+                    font-size:2em;
+                    line-height: 2em;
+                    text-align: center;
+                    border-radius: 2px;
+                    text-align:center;
+                    float: left;
+                     border-radius: 6px;
+                     margin-top: 50px;
+                    margin-left: 50px;
+         
+                        }
+                        
+                        
+                                                section.count div.container div span:first-child i
+                                                {
+                                                    margin-top:25px;
+                                                  
+                                                }
+                                                
+                                                section.count div.container div h3
+                                                {
+                                                    font-size: 2em;                                       
+                                                    color:white;
+                                                     margin:50px 30px 0px 0px;
+                                                                            padding: 0px 0px 0px 10px;
+ 
+                                                    
+                                                }
+                        section.count div.container div span:last-child
+                        {
+
+                            font-size: 1.2em;
+                           margin-top: 15px;
+                           color:white;
+                       padding: 0px 0px 0px 10px;
+                           font-weight: bold;
+
+                           
+                        }
+                                        
+                                        
+                                       /* =====================================================
+                                        *                end count  STYLE
+                                        *   =================================================== */
+                                       
+                                       
+                                       
+                                       
+                                       
+                                       
+                                         /* =====================================================
+                                        *              start ourteamtow  STYLE
+                                        *   =================================================== */
+                      section.ourteamtow
+                      {
+                        width:100p%;
+                        height:500px;
+ 
+                        text-align:center;
+                        background-color: #f0fafe
+                        
+                      }
+                      section.ourteamtow div.container
+                      {
+                        
+                        width:100%;
+                        height:500px;
+                        text-align: center;
+                        margin-bottom: 20px;
+                        
+                      }
+                      section.ourteamtow div.container div img
+                      {
+                        border-radius: 8px;
+                        width:55px;
+                        height:55px;
+                        float: left;
+                      }
+                      
+                      
+
+                      section.ourteamtow div.container > p
+                      {
+                        width: 800px;
+                        margin: 20px auto;
+                        color: #cdcdcd;
+                        line-height:1.2em;
+                      }
+                     section.ourteamtow div.container  h2
+                     {
+                        font-size:3em;
+                        font-weight: normal;
+                        text-transform: uppercase;
+                        margin-bottom: 20px;
+                       
+                         margin: 20px auto;
+
+                     }
+                                             section.ourteamtow div.container div
+                        {
+                            
+                            width: 25%;
+                            
+                             margin-top:40px;    
+                            height: 400px;
+                            display: inline-block;
+                            margin-right: 20px;
+                        }
+                                             section.ourteamtow div.container div i
+                                             {
+                                                font-size: 2em; 
+                                                color:#03a9f4;
+                                             }
+                                         
+                                          section.ourteamtow div.container div p
+                                          {
+                                            width: 300px;
+                                          }
+                                       /* =====================================================
+                                        *              end ourteamtow  STYLE
+                                        *   =================================================== */
+                                       
+                                       
+                                       /* =====================================================
+                                        *              start out cust  STYLE
+                                        *   =================================================== */
+                                       section.ourcustomers
+                                       {
+                                         background:url('../img/ourcus.jpg') no-repeat 0px -200px;
+                                        
+
+                background-size: cover;
+
+                height: 300px;
+                margin-bottom: 30px;
+                                       }
+                                        section.ourcustomers div
+                                        {
+                                            text-align: center;
+                                        }
+                                       
+                                  
+                                         section.ourcustomers div h2
+                                         {
+                                                                    font-size:3em;
+                        font-weight: normal;
+                        text-transform: uppercase;
+                        margin-bottom: 20px;
+                       
+                         margin: 20px auto;
+                                         }
+                                          section.ourcustomers div p
+                                                                {
+                        width: 800px;
+                        margin: 20px auto;
+                        color: #cdcdcd;
+                        line-height:1.2em;
+                      }
+
+                         section.ourcustomers div.overly
+                         {
+                                            background-color: rgba(0,0,0,.5);
+                width: 100%;
+                height: 100%;
+                         }
+                                        
+
+                                       
+                                       
+                                       /* =====================================================
+                                        *            end our cus  STYLE
+                                        *   =================================================== */
+                                       
+                                       
+                                        /* =====================================================
+                                        *           start footer  STYLE
+                                        *   =================================================== */
+                                 footer
+                                 {
+                                    background-color: #212121;
+                                    height: 80px;
+                                    
+                                margin-bottom: 4px;
+                                    
+                                 }
+                                 footer .menubottom div
+                                 {
+                                    background-color: red;
+                                 }
+                                 .menubottom ul
+                                 {
+                                    list-style: none;
+                                    float:right;
+                                 }
+                                 .copyrights p
+                                 {
+                                    font-size: 1em;
+                                    float: left;
+                                    padding-left:  20px;
+                                    font-weight: bold;
+                                 }
+
+                                        .copyrights a
+                                        {
+                                            font-size:1.2em;
+                                            font-weight: bold;
+                                            text-decoration: none;
+                                        }
+                                      /* =====================================================
+                                        *           end footer  STYLE
+                                        *   =================================================== */ 
