@@ -9,4 +9,8 @@ class Poll (models.Model):
     pup_date=models.DateField()
 
 class Kaya (models.Model):
-    name= models.CharField(max_length=200)
+    name= models.CharField(max_length=60)
+
+
+class Person (models.Model):
+    name = models.CharField(max_length=60)
