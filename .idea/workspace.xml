@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c96317c-34e8-4c93-adf7-6467cd90d408" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/img/1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/img/10.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/img/11.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/img/11.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/img/12.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/img/12.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/img/13.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/img/13.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/img/14.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/img/14.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/img/2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/img/3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/img/4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/img/5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/img/6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/img/7.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/img/8.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/img/9.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/img/blog.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/img/ourcus.jpg" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pollme/settings.py" afterPath="$PROJECT_DIR$/pollme/settings.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -134,7 +113,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="415" />
     <option name="width" value="697" />
     <option name="height" value="735" />
@@ -188,8 +167,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
