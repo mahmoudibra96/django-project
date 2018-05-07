@@ -8,6 +8,13 @@ class Poll (models.Model):
     text = models.CharField(max_length=300)
     pup_date=models.DateField()
 
+
+    
+    def __str__(self):
+        return self.text
+
+
+
 class Kaya (models.Model):
     name= models.CharField(max_length=60)
 
