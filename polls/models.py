@@ -9,7 +9,7 @@ class Poll (models.Model):
     pup_date=models.DateField()
 
 
-    
+
     def __str__(self):
         return self.text
 
