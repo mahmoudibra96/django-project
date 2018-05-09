@@ -23,17 +23,17 @@ box-shadow: none;
 
             header
             {
-                
+
                 background:url('../img/13.jpg') no-repeat;
                /* -moz-background-size: cover;
                 -webkit-background-size: cover;
                 -o-background-size:cover; */
-              
-                
+
+
                 background-size: cover;
                 height: 700px;
-                margin-bottom: 20px;    
-                
+                margin-bottom: 20px;
+
             }
 
             header div.overly
@@ -41,10 +41,10 @@ box-shadow: none;
                 background-color: rgba(0,0,0,.5);
                 width: 100%;
                 height: 100%;
-              
-              
+
+
             }
-            
+
             .container
             {
                 width: 1280px;
@@ -53,18 +53,18 @@ box-shadow: none;
             .logo
             {
                 float: left;
-                
+
             }
             .ul1
             {
                 float: right;
                 list-style: none;
-                
+
             }
             .clear
             {
                 clear: both;
-            
+
             }
             .spcl
             {
@@ -77,9 +77,9 @@ box-shadow: none;
                 line-height: 30px;
                 border-radius: 2px;
                 font-size: 1em;
-               
 
-                
+
+
             }
             .hh{
                 display: inline-block;
@@ -87,13 +87,13 @@ box-shadow: none;
                 font-size: 1em;
                 font-weight: normal;
                 padding: 10px;
-                
-                
+
+
             }
             .aa{
                 font-weight: bold;
             }
-            
+
             .nn{
                 padding:40px 0 0 0 ;
             }
@@ -109,7 +109,7 @@ box-shadow: none;
                 color: #fff;
                 text-decoration: none;
                 font-weight: 500;
-                
+
               }
                li a:after
               {
@@ -124,22 +124,22 @@ box-shadow: none;
               {
                 width: 100%;
               }
-              
+
               .intro
               {
-            
+
                 margin: 100px;
                 color: #fff;
                 text-align: center;
-                
+
               }
-              
+
               .wel
               {
                 font-weight: bold;
                 margin-bottom: 30px;
-            
-                
+
+
               }
               .gro
               {
@@ -148,7 +148,7 @@ box-shadow: none;
                 letter-spacing: 3px;
                 margin-bottom: 30px;
               }
-              
+
               .pi{
               font-size: 1em;
               line-height:1.5em;
@@ -167,11 +167,11 @@ box-shadow: none;
              }
              .indicator
              {
-                
+
                 width: 80px;
                 height: 50px;
                 margin: 0 auto;
-                
+
              }
              .indicator a{
                 width: 12px;
@@ -181,7 +181,7 @@ box-shadow: none;
                 float: left;
                 margin-right: 8px;
                 border-radius: 1px;
-                
+
              }
              .indicator a:nth-child(2)
              {
@@ -190,23 +190,23 @@ box-shadow: none;
                .indicator a:nth-child(3)
              {
                 background-color: blue;
-                
+
              } .indicator a:nth-child(4)
              {
                 background-color: green;
              }
-              
+
                                         /* =====================================================
                                         *                   HEADER STYLE END
                                         *   =================================================== */
-                                        
-                                        
+
+
                                         /* =====================================================
                                         *                  start SERVICES STYLE
                                         *   =================================================== */
                  .box
                  {
-                  
+
                     display: block;
                     float: left;
                     width: 25%;
@@ -214,7 +214,7 @@ box-shadow: none;
                     text-align: center;
                     margin-top: 10px;
                     margin-bottom:100px;
-                
+
                  }
                  #ii
                  {
@@ -228,7 +228,7 @@ box-shadow: none;
                 border-radius: 2px;
                 font-size: 1em;
                 padding-top: 15px;
-                    
+
                  }
                  .box div
                  {
@@ -236,12 +236,12 @@ box-shadow: none;
                     width: 280px;
                     background-color: #fff;
                     margin: 0 auto;
-                   
+
                  }
                  .box div
                  {
                     background-color:#f0fafe;
-                    
+
                  }
                  .box span
                  {
@@ -279,13 +279,13 @@ box-shadow: none;
                                         /* =====================================================
                                         *                 end SERVICES STYLE
                                         *   =================================================== */
-                                        
+
                                         /* =====================================================
                                         *                  start portfolio STYLE
                                         *   =================================================== */
                  section.portfolio
                  {
-              
+
                     text-align:center;
                     padding:60px 0 0 0;
                     margin-bottom: 60px
@@ -298,12 +298,12 @@ box-shadow: none;
                     margin-bottom: 20px;
                    margin-top: 80px;
                  }
-                 
+
                  .portfolio p{
                     width:800px;
                     margin: 0 auto;
                     color: #cdcdcd;
-                    line-height:1.5em; 
+                    line-height:1.5em;
                  }
                      .menuphoto ul
                      {
@@ -312,7 +312,7 @@ box-shadow: none;
                         list-style: none;
                      }
 
-                     
+
 
                   .gallery img
                   {
@@ -322,7 +322,7 @@ box-shadow: none;
                     height:315px;
                     margin-top: 30px;
                   }
-                     
+
                     section.portfolio div.gallery a
                     {
                         text-decoration: none;
@@ -331,10 +331,10 @@ box-shadow: none;
                     font-size: .8em;
                     margin-bottom: 180px;
 
-                    }   
-                                        
-                                        
-                                        
+                    }
+
+
+
                                         /* =====================================================
                                         *                  end pero STYLE
                                         *   =================================================== */
@@ -345,11 +345,11 @@ box-shadow: none;
                     {
                          background:url('../img/blog.jpg') no-repeat 0px -200px ;
 
-              
-                
+
+
                 background-size: cover;
                         height: 300px;
-                      
+
                     }
                     section.blog div.overly
                     {
@@ -357,12 +357,12 @@ box-shadow: none;
                 width: 100%;
                 height: 100%;
                     }
-                    
-                    .blog div.overly div.container div 
+
+                    .blog div.overly div.container div
                     {
                         padding: 80px 0 0 0 ;
-                       
-                        
+
+
                     }
                     .blog div.overly div.container div p
                     {
@@ -375,32 +375,32 @@ box-shadow: none;
                      {
                         margin-bottom:auto ;
                      }
-                                        
+
                                         /* =====================================================
                                         *                  end blog STYLE
                                         *   =================================================== */
-                                        
-                                        
-                                        
+
+
+
                                         /* =====================================================
                                         *                  start news STYLE
                                         *   =================================================== */
                      section.news
                      {
-                      
+
                         text-align: center;
                         padding: 60px 0 0 0  ;
                         margin-bottom: 60px;
                         padding-left:60px;
                         height: 500px;
-                        
+
                      }
                      section.news h2
                      {
                         font-size:3em;
                         font-weight: normal;
                         text-transform: uppercase;
-                        margin-bottom: 20px; 
+                        margin-bottom: 20px;
 
                      }
                      section.news > p
@@ -409,8 +409,8 @@ box-shadow: none;
                         margin: 20px auto;
                         color: #cdcdcd;
                         line-height:1.2em;
-                    
-                       
+
+
                      }
                       section.news div.container div
                       {
@@ -443,37 +443,37 @@ box-shadow: none;
                         margin-top: 15px;
                         margin-bottom: 50px;
                         display: block;
-                        
+
                       }
 
-                                        
+
                                         /* =====================================================
                                         *                  end news STYLE
                                         *   =================================================== */
-                                        
-                                        
+
+
                                         /* =====================================================
                                         *                 start our team STYLE
                                         *   =================================================== */
-                                        
-                                        
-                                        
+
+
+
                      section.ourteam
                      {
-                     
+
                         text-align: center;
                         padding: 50px 0 0 0  ;
                         margin-bottom: 60px;
 
                         height: 700px;
-                        
+
                      }
                      section.ourteam h2
                      {
                         font-size:3em;
                         font-weight: normal;
                         text-transform: uppercase;
-                        margin-bottom: 20px; 
+                        margin-bottom: 20px;
 
                      }
                      section.ourteam > p
@@ -483,41 +483,41 @@ box-shadow: none;
                         color: #cdcdcd;
                         line-height:1.2em;
                      }
-                     
+
                     section.ourteam div.container div
                     {
 
                      width:33%;
                     float: left;
-                   
+
                     }
                     section.ourteam div.container div:last-child
                     {
                         margin-right: 0px;
                     }
-                    
+
                     section.ourteam div.container img
                     {
                         width: 80%;
                         height :400px;
                         margin-right: 30px;
-                        
+
                     }
-                    
+
                     section.ourteam div.container h3
                     {
                         margin: 25px 0 25px 0 ;
-                        
+
                     }
                     section.ourteam div.container span
                     {
                        color: #cdcdcd;
-                       
-                    }      
-                                        
+
+                    }
+
                                         /* =====================================================
                                         *                  end our team  STYLE
-                                        *   =================================================== */                                      
+                                        *   =================================================== */
                                         /* =====================================================
                                         *                 start our skills team  STYLE
                                         *   =================================================== */
@@ -525,22 +525,22 @@ box-shadow: none;
                     {
 
                       background: #f0fafe;
-                      
+
                         text-align: center;
                         padding: 50px 0 0 0  ;
                         margin-bottom: 20px;
 
-                        height: 500px;                   
-                        
+                        height: 500px;
+
                     }
-                    
-                    
+
+
                     section.ourskills h2
                      {
                         font-size:3em;
                         font-weight: normal;
                         text-transform: uppercase;
-                        margin-bottom: 20px; 
+                        margin-bottom: 20px;
 
                      }
                      section.ourskills > p
@@ -549,8 +549,8 @@ box-shadow: none;
                         margin: 20px auto;
                         color: #cdcdcd;
                         line-height:1.2em;
-                     }       
-                    
+                     }
+
                     section.ourskills div.container div.leftskills
                     {
                         float: left;
@@ -575,30 +575,30 @@ box-shadow: none;
                         text-align: left;
                         float: left;
                         display: inline-block;
-                        
 
-                        
+
+
                     }
-                    
+
                      section.ourskills div.container div.leftskills div.technique h5,
                      section.ourskills div.container div.rightkills div.technique h5
                      {
                         text-align: right;
                         float: right;
                         display: inline-block;
-                        
+
                      }
                     section.ourskills div.container div.leftskills div.technique div:last-child,
                     section.ourskills div.container div.rightskills div.technique div:last-child
                     {
-                       
+
                         height: 20px;
                         width: 500px;
                         background-color: #fff;
                            border-radius:3px ;
-                        
+
                     }
-                     
+
                      section.ourskills div.container div.leftskills div.technique div span,
                      section.ourskills div.container div.rightskills div.technique div span
                      {
@@ -608,40 +608,40 @@ box-shadow: none;
                         border-radius: 3px ;
                         display: block;
                      }
-                     
 
-                     
-                     
-                     
 
-                                        
-                                        
+
+
+
+
+
+
                                         /* =====================================================
                                         *                  end our team  STYLE
                                         *   =================================================== */
-                                        
-                                        
+
+
                                         /* =====================================================
                                         *                start count  STYLE
                                         *   =================================================== */
                          section.count
                          {
-                            
-                         
+
+
                             height: 300px;
                             padding: 20px;
                          }
-                                        
+
                         section.count div.container div
                         {
                             background: #ff9800;
                             width: 33%;
                             float:left;
-                             margin-top:40px;    
+                             margin-top:40px;
                             height: 200px;
-                            
+
                         }
-                        
+
                         section.count div.container div span:first-child
                         {
 
@@ -659,24 +659,24 @@ box-shadow: none;
                      border-radius: 6px;
                      margin-top: 50px;
                     margin-left: 50px;
-         
+
                         }
-                        
-                        
+
+
                                                 section.count div.container div span:first-child i
                                                 {
                                                     margin-top:25px;
-                                                  
+
                                                 }
-                                                
+
                                                 section.count div.container div h3
                                                 {
-                                                    font-size: 2em;                                       
+                                                    font-size: 2em;
                                                     color:white;
                                                      margin:50px 30px 0px 0px;
                                                                             padding: 0px 0px 0px 10px;
- 
-                                                    
+
+
                                                 }
                         section.count div.container div span:last-child
                         {
@@ -687,19 +687,19 @@ box-shadow: none;
                        padding: 0px 0px 0px 10px;
                            font-weight: bold;
 
-                           
+
                         }
-                                        
-                                        
+
+
                                        /* =====================================================
                                         *                end count  STYLE
                                         *   =================================================== */
-                                       
-                                       
-                                       
-                                       
-                                       
-                                       
+
+
+
+
+
+
                                          /* =====================================================
                                         *              start ourteamtow  STYLE
                                         *   =================================================== */
@@ -707,19 +707,19 @@ box-shadow: none;
                       {
                         width:100p%;
                         height:500px;
- 
+
                         text-align:center;
                         background-color: #f0fafe
-                        
+
                       }
                       section.ourteamtow div.container
                       {
-                        
+
                         width:100%;
                         height:500px;
                         text-align: center;
                         margin-bottom: 20px;
-                        
+
                       }
                       section.ourteamtow div.container div img
                       {
@@ -728,8 +728,8 @@ box-shadow: none;
                         height:55px;
                         float: left;
                       }
-                      
-                      
+
+
 
                       section.ourteamtow div.container > p
                       {
@@ -744,26 +744,26 @@ box-shadow: none;
                         font-weight: normal;
                         text-transform: uppercase;
                         margin-bottom: 20px;
-                       
+
                          margin: 20px auto;
 
                      }
                                              section.ourteamtow div.container div
                         {
-                            
+
                             width: 25%;
-                            
-                             margin-top:40px;    
+
+                             margin-top:40px;
                             height: 400px;
                             display: inline-block;
                             margin-right: 20px;
                         }
                                              section.ourteamtow div.container div i
                                              {
-                                                font-size: 2em; 
+                                                font-size: 2em;
                                                 color:#03a9f4;
                                              }
-                                         
+
                                           section.ourteamtow div.container div p
                                           {
                                             width: 300px;
@@ -771,15 +771,15 @@ box-shadow: none;
                                        /* =====================================================
                                         *              end ourteamtow  STYLE
                                         *   =================================================== */
-                                       
-                                       
+
+
                                        /* =====================================================
                                         *              start out cust  STYLE
                                         *   =================================================== */
                                        section.ourcustomers
                                        {
                                          background:url('../img/ourcus.jpg') no-repeat 0px -200px;
-                                        
+
 
                 background-size: cover;
 
@@ -790,15 +790,15 @@ box-shadow: none;
                                         {
                                             text-align: center;
                                         }
-                                       
-                                  
+
+
                                          section.ourcustomers div h2
                                          {
                                                                     font-size:3em;
                         font-weight: normal;
                         text-transform: uppercase;
                         margin-bottom: 20px;
-                       
+
                          margin: 20px auto;
                                          }
                                           section.ourcustomers div p
@@ -815,15 +815,15 @@ box-shadow: none;
                 width: 100%;
                 height: 100%;
                          }
-                                        
 
-                                       
-                                       
+
+
+
                                        /* =====================================================
                                         *            end our cus  STYLE
                                         *   =================================================== */
-                                       
-                                       
+
+
                                         /* =====================================================
                                         *           start footer  STYLE
                                         *   =================================================== */
@@ -831,9 +831,9 @@ box-shadow: none;
                                  {
                                     background-color: #212121;
                                     height: 80px;
-                                    
+
                                 margin-bottom: 4px;
-                                    
+
                                  }
                                  footer .menubottom div
                                  {
@@ -860,4 +860,4 @@ box-shadow: none;
                                         }
                                       /* =====================================================
                                         *           end footer  STYLE
-                                        *   =================================================== */ 
+                                        *   =================================================== */
