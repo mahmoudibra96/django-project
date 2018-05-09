@@ -8,4 +8,4 @@ from django.http import HttpResponse
 
 
 def polls_list(request):
-    return HttpResponse('welcome')
+    return render(request , 'polls/poll_list.html')
